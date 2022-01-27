@@ -1,17 +1,4 @@
 /* Стилизация кнопки */
-/* класс buttons только для удобства просмотра */
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
-
-.buttons_demonstration {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
 .button {
     width: 100%;
     max-width: 189px;
@@ -50,7 +37,7 @@
 }
 
 .button_secondary:hover {
-    background-color: #5028C6;;
+    background-color: #5028C6;
 }
 
 .button_alternate {
