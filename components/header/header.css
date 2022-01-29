@@ -1,0 +1,7 @@
+.header {
+    padding: 96px 0 77px;
+}
+
+.header__title {
+    font: 500 50px/64px var(--inter);
+}

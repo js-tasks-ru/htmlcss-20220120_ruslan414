@@ -1,0 +1,17 @@
+.footer {
+    padding: 71px 0 136px;
+    text-align: center;
+}
+
+.footer__container {
+    max-width: 640px;
+}
+
+.footer__title {
+    margin-bottom: 32px;
+    font: 500 38px/48px var(--inter);
+}
+
+.footer__txt {
+    font: 400 16px/24px var(--inter);
+}
