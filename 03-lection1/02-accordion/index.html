@@ -4,15 +4,40 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
+        <title>Accordion</title>
     </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+    <style>
+        .wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+    </style>
+    <body class="wrapper">
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 1
+                </summary>
+                <p class="accordion__txt">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 2
+                </summary>
+                <p class="accordion__txt">
+                    Ut in sagittis libero. Etiam venenatis neque id tortor gravida, a auctor tortor sollicitudin. Pellentesque eget luctus nunc. Curabitur elementum ante urna, vel vestibulum neque tempor vitae. Sed a pharetra risus, non vulputate sem. Vestibulum ac neque blandit, feugiat diam sed, faucibus odio.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 3
+                </summary>
+                <p class="accordion__txt">
+                    Vestibulum eleifend molestie urna sit amet condimentum. Morbi dui ex, vestibulum id sodales id, volutpat in lacus. Donec at venenatis ex. Ut non quam non felis iaculis posuere in nec enim. Pellentesque condimentum lacus sed risus varius, nec vestibulum mi pulvinar. Pellentesque mollis lectus ut metus molestie viverra.
+                </p>
+            </details>
+        </div>
     </body>
 </html>
