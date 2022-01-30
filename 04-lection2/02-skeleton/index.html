@@ -2,10 +2,34 @@
 <!-- Страница со скелетоном -->
 <html lang="ru">
     <head>
+        <title>Skeleton</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./skeleton.css">
     </head>
-    <body>
+    <style>
+        .demonstration {
+            height: 100vh;
+            display: flex;
+        }
 
+        .demonstration__skeleton {
+            width: 579px;
+            margin: auto;
+        }
+    </style>
+    <body class="demonstration">
+        <div class="demonstration__skeleton skeleton">
+            <div class="skeleton__header">
+                <div class="skeleton__avatar"></div>
+                <div class="skeleton__lines">
+                    <span class="skeleton__line skeleton__line_xs"></span>
+                    <span class="skeleton__line skeleton__line_sm"></span>
+                </div>
+            </div>
+            <div class="skeleton__footer">
+                <span class="skeleton__line"></span>
+                <span class="skeleton__line"></span>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,44 @@
+.skeleton {
+    padding: 24px 40px 32px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+}
+
+.skeleton__lines {
+    width: 100%;
+}
+
+.skeleton__line {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
+}
+
+.skeleton__line_xs {
+    width: 41%;
+}
+
+.skeleton__line_sm {
+    width: 62%;
+}
+
+.skeleton__line:last-child {
+    margin-bottom: 0;
+}
